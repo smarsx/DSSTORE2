@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: AGPL-3.0-only
-pragma solidity ^0.8.17;
+pragma solidity ^0.8.0;
 
 /// @notice Read and write to persistent storage at a fraction of the cost. With onlyowner selfdestruct to clear data.
 /// @author Modified from solmate (https://github.com/transmissions11/solmate/blob/main/src/utils/SSTORE2.sol)
