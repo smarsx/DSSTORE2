@@ -39,7 +39,7 @@ library DSSTORE2 {
 
         bytes memory creationCode = abi.encodePacked(
             //-------------------------------------------------------------------//
-            // Opcode  | Opcode + Arguments | Description  | Stack View          //    
+            // Opcode  | Opcode + Arguments | Description       | Stack View     //    
             //--------------------------------------------------------------------- 
             // 0x63    |  0x63XXXXXX        | PUSH4 code.length | size           //              
             // 0x80    |  0x80              | DUP1              | size size      //         
