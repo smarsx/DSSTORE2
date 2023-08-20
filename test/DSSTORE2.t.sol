@@ -67,10 +67,10 @@ contract DSSTORE2TestBalance is Test {
         assertEq(pointer.balance, 0);
     }
 
-    function testFailNotOwner() public {
+    function testNotOwner() public {
         assertEq(pointer.balance, 1 ether);
         vm.prank(alice);
         pointer.call("");
-        assertEq(pointer.balance, 0 ether);
+        assertEq(pointer.balance, 1 ether);
     }
 }
